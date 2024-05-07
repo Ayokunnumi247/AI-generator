@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(249, 247, 244);
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  margin: 150px auto;
+  max-width: 600px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+form {
+  background-color: rgb(235, 228, 205);
+  padding: 30px;
+  display: flex;
+}
+form .name {
+  font-size: 15px;
+  width: 80%;
+  padding: 15px;
+  border-radius: 60px;
+  background-color: rgb(235, 228, 205);
+  border: 1px solid rgb(184, 182, 182);
+}
+form .submit {
+  font-size: 15px;
+  width: 20%;
+  padding: 15px;
+  border-radius: 60px;
+  color: white;
+  background-color: brown;
+  margin-left: 10px;
+  border: 1px solid brown;
+}
+main .section {
+  font-size: 15px;
+  max-width: 600px;
+  background-color: rgb(235, 228, 205);
+  margin-top: 35px;
+  padding: 20px 10px;
+  line-height: 20px;
+  border-left: 15px solid brown;
+  box-shadow: -1px 20px 20px rgba(0, 0, 0, 0.1);
+}
+footer {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 30px;
+}
+a {
+  color: brown;
+}
