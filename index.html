@@ -10,21 +10,24 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to AI recipes generator</h1>
-      <form id="recipe-form">
-        <input
-          type="text"
-          placeholder="Enter name of food"
-          autofocus
-          required
-          autocomplete="off"
-          class="name"
-          id="input-data"
-        />
-        <input type="submit" class="submit" id="submit-generator" />
-      </form>
+      <h1>Welcome to AI Recipes Generator</h1>
+      <div class="container">
+        <form id="recipe-form">
+          <input
+            type="text"
+            placeholder="Enter name of food"
+            autofocus
+            required
+            autocomplete="off"
+            class="name"
+            id="input-data"
+          />
+          <input type="submit" class="submit" id="submit-generator" />
+        </form>
+        <div class="examples">i.e: lasagna, noodles</div>
+      </div>
       <main>
-        <div class="section" id="information"></div>
+        <div class="section hidden" id="information"></div>
       </main>
       <footer>
         This AI project was coded by
